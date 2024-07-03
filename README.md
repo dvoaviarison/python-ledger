@@ -4,7 +4,7 @@ In this case the application will be a simple ledger
 
 ## Run unit tests
 ```sh
-python3 -m unittest tests.python_ledger.TestSavingsAccount
+python3 -m unittest discover -s ./test/*
 ```
 
 ## Run the example ledger app
